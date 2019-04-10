@@ -38,7 +38,7 @@ token_exprs = [
     (r'end',                   'END'),
     (r'return',                'RETURN'),
     (r'[\d]+\.[\d]+',         'FLOAT'),
-    (r'[0|1]{1}',             'BOOL'),
+    #(r'[0|1]{1}',             'BOOL'),
     (r'[0-9]+',                'INT'),
     #(r'\"[\w|\d]{1}\"',        'CHAR'),
     (r'\"[^\"]*\"',              'STRING'),
